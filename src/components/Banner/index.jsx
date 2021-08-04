@@ -12,7 +12,7 @@ import IconPhone from 'images/icon-phone.png';
 import Input from 'components/Form/InputField';
 
 export default function index() {
-  const [countdownDate, setCountdownDate] = useState(new Date('12/25/2022').getTime());
+  const [countdownDate, ] = useState(new Date('12/25/2022').getTime());
   const [state, setState] = useState({
     days: 0,
     hours: 0,
